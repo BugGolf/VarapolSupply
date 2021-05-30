@@ -23,6 +23,10 @@ class Product extends Model
     'unit'
   ];
 
+  protected $appends = [
+    "category_name"
+  ];
+
   public function category()
   {
     return $this->belongsTo('App\Models\Category');
