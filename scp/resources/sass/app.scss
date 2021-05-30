@@ -1,0 +1,29 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Prompt');
+
+$primary: #00790a;
+$secondary: #9e2d00;
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.bg-color { 
+  background-color: #efefef; 
+  min-height: 100vh;
+}
+
+.bg-color1 { background-color: #00790a; }
+.text-color1 { color: #00790a; }
+
+.bg-color2 { background-color: #00cc22; }
+.text-color2 { color: #00cc22; }
+
+.bg-color3 { background-color: #7a00cc; }
+.text-color3 { color: #7a00cc; }
