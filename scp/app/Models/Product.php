@@ -22,4 +22,14 @@ class Product extends Model
     'min_stock',
     'unit'
   ];
+
+  public function category()
+  {
+    return $this->belongsTo('App\Models\Category');
+  }
+
+  public function getCategoryNameAttribute()
+  {
+    return $this->category->name ?? "ไม่มีหมวดหมู่";
+  }
 }
